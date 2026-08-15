@@ -23,8 +23,8 @@ It is built to be fast, tidy, and completely yours.
 This repository is the home for **reporting issues and requesting features** for Omnideck.
 
 - 🐞 **Found a bug?** [Open an issue](../../issues/new) and tell us what happened, what you expected, and your device / Android version.
-- 💡 **Have an idea?** [Request a feature](../../issues/new) - we read every suggestion.
-- 👍 **Want something that's already been suggested?** Browse [existing issues](../../issues) and add a 👍 or a comment so we know it matters to you.
+- 💡 **Have an idea?** [Request a feature](../../issues/new) - I read every suggestion.
+- 👍 **Want something that's already been suggested?** Browse [existing issues](../../issues) and add a 👍 or a comment so I know it matters to you.
 
 Please search the [open issues](../../issues) first to avoid duplicates.
 
@@ -79,7 +79,7 @@ Omnideck respects your privacy from the ground up:
 - **No ads. No trackers. No hidden analytics** building a profile of you.
 - **Your layout stays on your device** - there is no cloud sync and no automatic cloud backup.
 - **Backups belong to you** - export and import your setup as a simple file that only you control.
-- We ask only for what a launcher genuinely needs, and we explain every request in plain language.
+- The app asks only for what a launcher genuinely needs, and every request is explained in plain language.
 
 ---
 
