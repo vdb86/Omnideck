@@ -22,9 +22,9 @@ It is built to be fast, tidy, and completely yours.
 
 This repository is the home for **reporting issues and requesting features** for Omnideck.
 
-- 🐞 **Found a bug?** [Open an issue](../../issues/new) and tell us what happened, what you expected, and your device / Android version.
-- 💡 **Have an idea?** [Request a feature](../../issues/new) - I read every suggestion.
-- 👍 **Want something that's already been suggested?** Browse [existing issues](../../issues) and add a 👍 or a comment so I know it matters to you.
+- 🐞 **Found a bug?** [Report a bug](../../issues/new?template=bug_report.yml) and tell us what happened, what you expected, and your device / Android version.
+- 💡 **Have an idea?** [Request a feature](../../issues/new?template=feature_request.yml) - I read every suggestion.
+- 👍 **Want something that's already been suggested?** Browse [bug reports](../../issues?q=is%3Aissue+label%3Abug) and [feature requests](../../issues?q=is%3Aissue+label%3Aenhancement) and add a 👍 or a comment so I know it matters to you.
 
 Please search the [open issues](../../issues) first to avoid duplicates.
 
