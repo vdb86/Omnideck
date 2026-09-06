@@ -51,8 +51,8 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 <div align="center">
 
-<img src="Screenshots/Popup%20-%20apps.jpg" alt="Floating popup with apps" width="30%" />
-<img src="Screenshots/Popup%20-%20widgets.jpg" alt="Widgets inside the popup" width="30%" />
+<img src="Screenshots/Popup%20-%20apps%20and%20widgets.jpg" alt="Floating popup with apps and widgets" width="30%" />
+<img src="Screenshots/Add%20widget.jpg" alt="Add widget" width="30%" />
 <img src="Screenshots/Page%20manager.jpg" alt="Page manager" width="30%" />
 
 <br/>
@@ -70,8 +70,14 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 <br/>
 
 <img src="Screenshots/Add%20action%20-%20websites.jpg" alt="Add action - websites" width="30%" />
-<img src="Screenshots/Settings.jpg" alt="Settings" width="30%" />
-<img src="Screenshots/Settings%20-%20all.jpg" alt="All settings" width="30%" />
+<img src="Screenshots/Add%20action%20-%20contact.jpg" alt="Add action - contacts" width="30%" />
+
+<br/><br/>
+
+**Full settings tours (long captures):**
+[General](Screenshots/Settings%20-%20general.jpg) ·
+[Triggers](Screenshots/Settings%20-%20triggers.jpg) ·
+[Popup](Screenshots/Settings%20-%20popup.jpg)
 
 </div>
 
