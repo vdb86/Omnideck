@@ -6,7 +6,7 @@
 
 ### Your whole phone, one swipe away
 
-**A private floating launcher: apps, actions & widgets, one swipe away.**
+**A private floating launcher: apps, contacts, widgets & actions, one swipe away.**
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.omnideck.app">
@@ -18,7 +18,9 @@
 
 ---
 
-Omnideck is a floating launcher that lives quietly on the edge of your screen. Swipe in from the side, or tap a floating button, and a compact panel appears right where you are - no jumping back to the home screen, no digging through app drawers. Tap what you need, and the panel tucks itself away again.
+Omnideck is a floating launcher that lives quietly on the edge of your screen. Swipe in from the side, or tap a floating button, and the **Deck** appears right where you are - no jumping back to the home screen, no digging through app drawers. Tap what you need, and it tucks itself away again.
+
+Beside the Deck there are **Panels**: an A-Z app index and a contacts index, each with its own trigger.
 
 It is built to be fast, tidy, and completely yours.
 
@@ -36,14 +38,41 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 ---
 
-## ✨ What you can do
+## ✨ The Deck
 
-- **Launch anything** - apps, shortcuts, contacts, and websites all live together in one neat panel.
-- **System actions at a glance** - flip on the flashlight, rotate the screen, and more without leaving what you are doing.
-- **Stay organized** - group items into folders and swipe between pages to keep everything a single tap away.
-- **Live widgets in the popup** - drop your favourite widgets straight into the panel, then move and resize them on a simple grid.
-- **Make it yours** - choose custom icons from built-in Material icons, your own icon packs, contact photos, or images from your gallery.
-- **Open it your way** - use a gentle edge-swipe strip, a movable floating button, or both, on either side of the screen.
+- **Launch anything** - apps, app shortcuts, activities, custom intents, files, contacts and websites, all in one panel.
+- **System actions at a glance** - flip on the flashlight, rotate the screen, take a screenshot and more without leaving what you are doing.
+- **Live widgets** - drop your favourite widgets straight into the Deck, then move and resize them on the grid.
+- **Stay organized** - folders, multiple pages, and a grid size you choose (per page, if you like).
+- **Scroll your way** - flip pages left/right or up/down, or switch to one continuous strip that can loop endlessly.
+- **Pin it** - keep the Deck on screen and drag it wherever you want it.
+
+---
+
+## 🗂️ Panels
+
+Two extra surfaces, each with its own trigger, gesture binding and launcher shortcut:
+
+- **App index** - an A-Z rail of every installed app. Slide down the rail and tap the app; long-press for App info, Add to Deck or Uninstall.
+- **Contacts** - your contacts on the same rail, opening on your favourites. Tap someone to get their numbers, emails and address, each with its own call, message, copy or map action - plus the actions WhatsApp, Viber, Telegram and others add themselves. A whole contact can sit on the Deck for one-tap access, and you can choose which app actions appear.
+
+---
+
+## 🎨 Make it yours
+
+- **75 built-in themes**, or mix your own palette.
+- **Dozens of animations** - open/close, folders, taps and page transitions, each with a live preview.
+- **Custom icons** - built-in Material icons, your own icon packs, contact photos, gallery images, or animated icons for the floating button.
+- **Every dimension** - size, position, opacity, corner radius, borders and padding.
+- **Light, dark or automatic** for the app's own screens, independently of the overlay theme.
+
+---
+
+## 👆 Open it your way
+
+- **Edge-swipe strips** on either side, with direction-aware gestures: short and long swipes in five directions per side, each bound to whatever you want.
+- **A movable floating button** with its own gesture set and optional animated icons.
+- **Everywhere else** - launcher long-press shortcuts (left and right, for the Deck and each panel), home-screen icons, `omnideck://` links, and intents for Tasker or MacroDroid.
 
 ---
 
@@ -77,7 +106,9 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 **Full settings tours (long captures):**
 [General](Screenshots/Settings%20-%20general.jpg) ·
 [Triggers](Screenshots/Settings%20-%20triggers.jpg) ·
-[Popup](Screenshots/Settings%20-%20popup.jpg)
+[Deck](Screenshots/Settings%20-%20popup.jpg)
+
+<sub>Some captures predate the Deck / Panels rename and the newer panels.</sub>
 
 </div>
 
@@ -99,7 +130,7 @@ Omnideck respects your privacy from the ground up:
 
 - **Display over other apps** - this is what lets the panel float above whatever you are using.
 - **See your installed apps** - so Omnideck can show them for you to launch. That list never leaves your phone.
-- **Contacts (optional)** - only if you want quick contact shortcuts. Skip it and everything else still works.
+- **Contacts (optional)** - only for the Contacts panel and contact shortcuts. Skip it and everything else still works.
 - **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for two things, and only when you choose to turn them on:
   1. **System navigation shortcuts from the panel** - Back, Home, Recents, Notifications, Quick Settings, Lock screen, Screenshot, and Split screen. Android only exposes these actions through the Accessibility Service (`performGlobalAction`), so the panel relies on it to trigger them.
   2. **Keyboard avoidance** - detecting when the on-screen keyboard opens so the panel can slide out of its way (a Pro feature).
@@ -110,14 +141,15 @@ Omnideck respects your privacy from the ground up:
 
 ## 💎 Free, with an optional one-time upgrade
 
-The free version is genuinely useful all on its own: a full launcher panel, every action type, folders, custom icons, and both ways to open it.
+The free version is genuinely useful all on its own: a full launcher panel, every action type, folders, custom icons, contact menus, and both ways to open it.
 
 **Omnideck Pro** is a single one-time purchase - no subscriptions, ever. It unlocks the extra polish and customization:
 
-- Resize the grid and add more pages
-- Widget pages
-- Popup appearance, position, and behaviour
-- Smooth animations and haptic feedback
+- Bigger grids and extra pages
+- Deck appearance, position, and behaviour
+- Page transitions, animations and haptic feedback
+- Vertical and continuous scrolling
+- The App index and Contacts panels
 - Floating-button styling and keyboard avoidance
 - Backup and restore
 
