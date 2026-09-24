@@ -62,7 +62,7 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 
 - **75 built-in themes**, or mix your own palette.
 - **Dozens of animations** - open/close, folders, taps and page transitions, each with a live preview.
-- **Custom icons** - built-in Material icons, your own icon packs, contact photos, gallery images, or animated icons for the floating button.
+- **Custom icons** - built-in Material icons, your own icon packs (or one pack for every app at once), contact photos, gallery images, or animated icons for the floating button.
 - **Every dimension** - size, position, opacity, corner radius, borders and padding.
 - **Light, dark or automatic** for the app's own screens, independently of the overlay theme.
 
@@ -80,7 +80,7 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 
 <div align="center">
 
-<img src="Screenshots/Popup%20-%20apps%20and%20widgets.jpg" alt="Floating popup with apps and widgets" width="30%" />
+<img src="Screenshots/Popup%20-%20apps%20and%20widgets.jpg" alt="The Deck with apps and widgets" width="30%" />
 <img src="Screenshots/Add%20widget.jpg" alt="Add widget" width="30%" />
 <img src="Screenshots/Page%20manager.jpg" alt="Page manager" width="30%" />
 
@@ -130,7 +130,11 @@ Omnideck respects your privacy from the ground up:
 
 - **Display over other apps** - this is what lets the panel float above whatever you are using.
 - **See your installed apps** - so Omnideck can show them for you to launch. That list never leaves your phone.
+- **Notifications (optional, recommended)** - lets Android show the small, quiet notification that keeps Omnideck running in the background. You can minimise it in your notification settings.
+- **Battery optimisation exemption (optional, recommended)** - stops Android from freezing or closing Omnideck in the background, so the edge strips and the floating button keep working.
 - **Contacts (optional)** - only for the Contacts panel and contact shortcuts. Skip it and everything else still works.
+- **Modify system settings (optional)** - only for the screen-rotation actions on the Deck.
+- **Usage access (optional)** - only to see which app is in front, so triggers can behave differently in the apps you pick (hide, click through, snap or unsnap). Omnideck never reads your usage history.
 - **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for two things, and only when you choose to turn them on:
   1. **System navigation shortcuts from the panel** - Back, Home, Recents, Notifications, Quick Settings, Lock screen, Screenshot, and Split screen. Android only exposes these actions through the Accessibility Service (`performGlobalAction`), so the panel relies on it to trigger them.
   2. **Keyboard avoidance** - detecting when the on-screen keyboard opens so the panel can slide out of its way (a Pro feature).
@@ -154,6 +158,24 @@ The free version is genuinely useful all on its own: a full launcher panel, ever
 - Backup and restore
 
 Buy it once and it is yours to keep.
+
+---
+
+## 🌍 Languages
+
+Omnideck is available in **50 languages** and follows your phone's language automatically:
+
+Arabic, Bengali, Bulgarian, Catalan, Chinese (Simplified), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Korean, Latvian, Lithuanian, Malayalam, Marathi, Norwegian, Persian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic and Latin), Slovak, Slovenian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese and Zulu.
+
+If something reads wrong in your language, please [report it](../../issues/new?template=bug_report.yml).
+
+---
+
+## 📌 A few things to know
+
+- Available in **50 languages** (see above).
+- Works on **Android 10 and newer**.
+- Some phones aggressively close background apps. If the edge strips or the floating button ever stop responding, the in-app tips help keep Omnideck running.
 
 ---
 
