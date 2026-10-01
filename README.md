@@ -40,7 +40,8 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 ## ✨ The Deck
 
-- **Launch anything** - apps, app shortcuts, activities, custom intents, files, contacts and websites, all in one panel.
+- **Launch anything** - apps, app shortcuts, activities, custom intents, files, contacts and websites, all in one panel. A **Test** button tries an activity or intent before you add it, and screens other apps can't open are marked.
+- **Saved texts** - keep texts you type often and paste them into the field you're typing in, from the Deck, a gesture or the Action wheel.
 - **System actions at a glance** - flip on the flashlight, rotate the screen, take a screenshot and more without leaving what you are doing.
 - **Live widgets** - drop your favourite widgets straight into the Deck, then move and resize them on the grid.
 - **Stay organized** - folders, multiple pages, and a grid size you choose (per page, if you like).
@@ -61,7 +62,8 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 ## 🎨 Make it yours
 
 - **75 built-in themes**, or mix your own palette.
-- **Dozens of animations** - open/close, folders, taps and page transitions, each with a live preview.
+- **Dozens of animations** - open/close, folders, taps, page transitions and the floating button's show/hide, each with a live preview and its own speed.
+- **Now playing on the button** - while music or video plays, the floating button can show the album art or an animation: Record, Tape, CD, Equalizer, Pulse, Notes, Wave or Ticker.
 - **Custom icons** - built-in Material icons, your own icon packs (or one pack for every app at once), contact photos, gallery images, or animated icons for the floating button.
 - **Every dimension** - size, position, opacity, corner radius, borders and padding.
 - **Light, dark or automatic** for the app's own screens, independently of the overlay theme.
@@ -72,6 +74,7 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 
 - **Edge-swipe strips** on either side, with direction-aware gestures: short and long swipes in five directions per side, each bound to whatever you want.
 - **A movable floating button** with its own gesture set and optional animated icons.
+- **The Action wheel** - swipe from the floating button or an edge, slide onto one of the actions around your finger and lift to run it. Pick the actions, icons and names in its own editor.
 - **Everywhere else** - launcher long-press shortcuts (left and right, for the Deck and each panel), home-screen icons, `omnideck://` links, and intents for Tasker or MacroDroid.
 
 ---
@@ -135,9 +138,10 @@ Omnideck respects your privacy from the ground up:
 - **Contacts (optional)** - only for the Contacts panel and contact shortcuts. Skip it and everything else still works.
 - **Modify system settings (optional)** - only for the screen-rotation actions on the Deck.
 - **Usage access (optional)** - only to see which app is in front, so triggers can behave differently in the apps you pick (hide, click through, snap or unsnap). Omnideck never reads your usage history.
-- **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for two things, and only when you choose to turn them on:
+- **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for three things, and only when you choose to use them:
   1. **System navigation shortcuts from the panel** - Back, Home, Recents, Notifications, Quick Settings, Lock screen, Screenshot, and Split screen. Android only exposes these actions through the Accessibility Service (`performGlobalAction`), so the panel relies on it to trigger them.
   2. **Keyboard avoidance** - detecting when the on-screen keyboard opens so the panel can slide out of its way (a Pro feature).
+  3. **Pasting saved texts** - an action you set up pastes a text you saved in Omnideck into the text field you are typing in. Omnideck only asks which field has focus and pastes into it; it never reads the field or anything else on screen.
 
   Omnideck does **NOT** read, record, log, collect, or transmit the contents of your screen or anything you type. No accessibility data is stored or leaves your device. The service is optional and disabled by default; you can turn it off at any time in **Android Settings → Accessibility** or from Omnideck's Permissions screen, and every other feature keeps working without it.
 
@@ -154,7 +158,8 @@ The free version is genuinely useful all on its own: a full launcher panel, ever
 - Page transitions, animations and haptic feedback
 - Vertical and continuous scrolling
 - The App index and Contacts panels
-- Floating-button styling and keyboard avoidance
+- The Action wheel
+- Floating-button styling, animations and keyboard avoidance
 - Backup and restore
 
 Buy it once and it is yours to keep.
