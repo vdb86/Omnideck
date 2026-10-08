@@ -130,17 +130,23 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 
 <img src="Screenshots/Add%20action%20-%20apps.jpg" alt="Add action - apps" width="30%" />
 <img src="Screenshots/Add%20action%20-%20activities.jpg" alt="Add action - activities" width="30%" />
-<img src="Screenshots/Add%20action%20-%20intents.jpg" alt="Add action - intents" width="30%" />
+<img src="Screenshots/Add%20action%20-%20shortcuts.jpg" alt="Add action - app shortcuts" width="30%" />
 
 <br/>
 
+<img src="Screenshots/Add%20action%20-%20intents.jpg" alt="Add action - intents" width="30%" />
 <img src="Screenshots/Add%20action%20-%20inner%20links.jpg" alt="Add action - inner links" width="30%" />
-<img src="Screenshots/Add%20action%20-%20files.jpg" alt="Add action - files" width="30%" />
 <img src="Screenshots/Add%20action%20-%20system.jpg" alt="Add action - system" width="30%" />
 
 <br/>
 
+<img src="Screenshots/Add%20action%20-%20http.jpg" alt="Add action - HTTP requests and Wake-on-LAN" width="30%" />
+<img src="Screenshots/Add%20action%20-%20text.jpg" alt="Add action - saved texts" width="30%" />
 <img src="Screenshots/Add%20action%20-%20websites.jpg" alt="Add action - websites" width="30%" />
+
+<br/>
+
+<img src="Screenshots/Add%20action%20-%20files.jpg" alt="Add action - files" width="30%" />
 <img src="Screenshots/Add%20action%20-%20contact.jpg" alt="Add action - contacts" width="30%" />
 
 <br/><br/>
@@ -148,9 +154,9 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 **Full settings tours (long captures):**
 [General](Screenshots/Settings%20-%20general.jpg) ·
 [Triggers](Screenshots/Settings%20-%20triggers.jpg) ·
-[Deck](Screenshots/Settings%20-%20popup.jpg)
-
-<sub>Some captures predate the Deck / Panels rename, the newer panels, the Action wheel and the HTTP tab.</sub>
+[Panels: Deck](Screenshots/Settings%20-%20panels-%20deck.jpg) ·
+[Panels: App index](Screenshots/Settings%20-%20panel%20-%20app%20index.jpg) ·
+[Panels: Contacts](Screenshots/Settings%20-%20panel%20-%20contacts.jpg)
 
 </div>
 
