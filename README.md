@@ -40,9 +40,9 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 
 ## ✨ The Deck
 
-- **Launch anything** - apps, app shortcuts, activities, inner links (an app's own screens and deep links), custom intents, Android settings screens, files, contacts, websites, saved texts and HTTP requests, all in one panel.
+- **Launch anything** - apps, app shortcuts, activities, inner links (an app's own screens and deep links), custom intents, Android settings screens, files, contacts, websites, saved texts, HTTP requests and web searches, all in one panel.
 - **Add action, eleven tabs** - Apps, System, Activities, Intents, Inner links, Shortcuts, Files, Websites, Contacts, Text and HTTP. A **Test** button tries an activity or intent before you add it, and screens other apps can't open are marked.
-- **System actions at a glance** - Back, Home, Recents, Previous app, Notifications, Quick settings, Split screen, Lock screen, Screenshot, Power menu, Assistant, Torch, volume and mute, media controls (play / pause, previous, next, stop), rotation and Auto-rotate, Screen timeout, Adaptive brightness, and more.
+- **System actions at a glance** - Back, Home, Recents, Previous app, Notifications, Quick settings, Split screen, Lock screen, Screenshot, Power menu, Assistant, Web search, Torch, volume and mute, media controls (play / pause, previous, next, stop), rotation and Auto-rotate, Screen timeout, Adaptive brightness, and more.
 - **Live widgets** - drop your favourite widgets straight into the Deck, then move and resize them on the grid, with zoom control for widgets that don't fit.
 - **Stay organised** - folders, multiple pages, a page manager, and a grid size you choose (up to 20 x 20, per page if you like).
 - **Scroll your way** - flip pages left/right or up/down, or switch to one continuous strip that can loop endlessly.
@@ -62,6 +62,17 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - **Show the result your way** - a toast, a notification, a dialog, or a full-screen window with the response details, a JSON table, and Copy / Share / Save / Run again.
 - **Variables** - write `{{name}}` in a URL, header or body. A variable can be a fixed value, ask you for a text, number, password, date, time, colour or a choice when the request runs, or switch between values on each run. Answers can be JSON-encoded, multi-line, and remembered for next time.
 - **Site icons** - websites and requests can fetch the site's own icon.
+
+---
+
+## 🔍 Web search
+
+- **A search box, one tap away** - a Web search action opens a small search card with the keyboard already up, from the Deck, a gesture, the Action wheel or Bottom notifications.
+- **Recent searches and live suggestions** - your recent searches show first; as you type, the search engine's own suggestions take over, letter by letter. Recent searches stay on your phone only and can be cleared.
+- **11 search engines** - Google, DuckDuckGo, Bing, Brave Search, Ecosia, Qwant and Yahoo, plus Naver, Yandex, Seznam and Baidu. Choose the engine for each action, with a default in Settings > General, and switch to another one for a single search right from its icon in the search box.
+- **Your browser** - results open in the default browser or in the browser you pick for that action.
+- **Web addresses too** - type example.com and open the site directly instead of searching for it.
+- **Search suggestions can be turned off** - then nothing is sent while you type.
 
 ---
 
@@ -114,6 +125,7 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 
 - **Backup & restore** - your whole setup in one file you control; a file from another app or a newer Omnideck is refused before anything changes.
 - **What's new** and an **update checker** inside the app.
+- **Debug page** - Settings > About & contact > Debug shows the Pro purchase checks and memory details in one copyable report, for when you need support.
 - **Second-finger protection** - a second finger touching the strip or the button never sets it off.
 
 ---
@@ -182,7 +194,7 @@ Omnideck respects your privacy from the ground up:
 - **Battery optimisation exemption (optional, recommended)** - stops Android from freezing or closing Omnideck in the background, so the edge strips and the floating button keep working.
 - **Contacts (optional)** - only for the Contacts panel and contact shortcuts. Skip it and everything else still works.
 - **Modify system settings (optional)** - only for the screen-rotation, Auto-rotate, Screen timeout and Adaptive brightness actions.
-- **Internet** - only for the HTTP requests and Wake-on-LAN packets you set up yourself, and for fetching a website's icon when you ask for it. Omnideck sends nothing about you anywhere.
+- **Internet** - only for the HTTP requests and Wake-on-LAN packets you set up yourself, for fetching a website's icon when you ask for it, and for web search: the search engine's suggestions while you type (each letter goes to the engine you chose - turn suggestions off in Settings and nothing is sent) and each engine's icon, fetched once. Omnideck sends nothing about you anywhere.
 - **Usage access (optional)** - only to see which app is in front, so triggers can behave differently in the apps you pick (hide, click through, snap or unsnap). Omnideck never reads your usage history.
 - **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for three things, and only when you choose to use them:
   1. **System navigation shortcuts from the panel** - Back, Home, Recents, Notifications, Quick Settings, Lock screen, Screenshot, and Split screen. Android only exposes these actions through the Accessibility Service (`performGlobalAction`), so the panel relies on it to trigger them.
@@ -195,7 +207,7 @@ Omnideck respects your privacy from the ground up:
 
 ## 💎 Free, with an optional one-time upgrade
 
-The free version is genuinely useful all on its own: a full launcher panel, every action type (HTTP requests, Wake-on-LAN and saved texts included), the Library, folders, custom icons, contact menus, themes, Material You, and both ways to open it.
+The free version is genuinely useful all on its own: a full launcher panel, every action type (HTTP requests, Wake-on-LAN, saved texts and web search included), the Library, folders, custom icons, contact menus, themes, Material You, and both ways to open it.
 
 **Omnideck Pro** is a single one-time purchase - no subscriptions, ever. It unlocks the extra polish and customization:
 
