@@ -26,6 +26,20 @@ It is built to be fast, tidy, and completely yours.
 
 ---
 
+<!-- whats-new:start -->
+## 🆕 What's new in 3.3
+
+- Multiple Decks (Pro): up to five Decks, each with its own pages. Decks 2-5 use Deck 1's settings until you change one for that Deck. Any Open Deck gesture or wheel slot chooses which Deck it opens.
+- Edge swipe pairs (Pro): add up to four more left/right pairs of edge strips, each with its own touch areas, gestures, Action wheel and settings.
+- The Triggers tab is split into Button, Edge swipe and Icons, and Swipe-through and Automatic behaviour are now set separately for the button and for each edge pair. Edge strips can also hide in landscape and let touches through in fullscreen apps.
+- Launcher icons for every Deck (Pro): each Deck can have its own left and right home-screen icon, and any icon can show / hide its Deck instead of only opening it.
+- Lock position (Pro): a new switch in Deck position stops the Deck from being picked up and moved by accident, also when it is pinned.
+
+[All release notes](RELEASE-NOTES.md)
+<!-- whats-new:end -->
+
+---
+
 ## 💬 Feedback, bug reports & feature requests
 
 This repository is the home for **reporting issues and requesting features** for Omnideck.
