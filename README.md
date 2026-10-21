@@ -48,7 +48,7 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - **Stay organised** - folders, multiple pages, a page manager, and a grid size you choose (up to 20 x 20, per page if you like).
 - **Scroll your way** - flip pages left/right or up/down, or switch to one continuous strip that can loop endlessly.
 - **Edit in place** - in edit mode, tap an item to edit it, hold and drag to move it; icons and widgets make room for each other as you drag.
-- **Pin it** - keep the Deck on screen and drag it wherever you want it; a "Show / hide Deck" action closes it again.
+- **Pin it** - keep the Deck on screen and drag it wherever you want it; a "Show / hide Deck" action closes it again, and **Lock position** stops it from being moved by accident.
 - **Where it opens** - left, right or centre, at a height you set or right at your finger.
 - **Stays out of the way** - close after an action, auto-close after a delay, and move up or click through when the keyboard opens.
 
