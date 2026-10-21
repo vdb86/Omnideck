@@ -44,6 +44,7 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 - **Add action, eleven tabs** - Apps, System, Activities, Intents, Inner links, Shortcuts, Files, Websites, Contacts, Text and HTTP. A **Test** button tries an activity or intent before you add it, and screens other apps can't open are marked.
 - **System actions at a glance** - Back, Home, Recents, Previous app, Notifications, Quick settings, Split screen, Lock screen, Screenshot, Power menu, Assistant, Web search, Torch, volume and mute, media controls (play / pause, previous, next, stop), rotation and Auto-rotate, Screen timeout, Adaptive brightness, and more.
 - **Live widgets** - drop your favourite widgets straight into the Deck, then move and resize them on the grid, with zoom control for widgets that don't fit.
+- **Up to five Decks** - each with its own pages. Decks 2-5 follow Deck 1's settings until you change one for that Deck (a small reset icon brings it back), and every gesture, wheel slot, home-screen icon and link chooses which Deck it opens.
 - **Stay organised** - folders, multiple pages, a page manager, and a grid size you choose (up to 20 x 20, per page if you like).
 - **Scroll your way** - flip pages left/right or up/down, or switch to one continuous strip that can loop endlessly.
 - **Edit in place** - in edit mode, tap an item to edit it, hold and drag to move it; icons and widgets make room for each other as you drag.
@@ -110,14 +111,18 @@ Two extra surfaces, each with its own trigger, gesture binding and launcher shor
 
 ## 👆 Open it your way
 
-- **Edge-swipe strips** on either side, with a visual hint you can show or hide and a touch area you drag into place on screen.
-- **Directional gestures** - short and long swipes in five directions per strip (and eight around the floating button), each bound to any action. Set the angles visually, and how long to hold for a long swipe. Give each strip its own set, or let both share one with **Mirror**.
-- **A movable floating button** - snap it to an edge (half hidden), fling it, choose a different shape when snapped, and let it rotate with the screen or stay put.
-- **The Action wheel** - swipe from the floating button or an edge, slide onto one of the actions around your finger and lift to run it. Pick the actions, icons and names in its own editor; each edge strip can have its own wheel.
-- **Swipe-through launch** - keep your finger down after the Deck opens, slide onto an item and lift to open it.
-- **Per-app rules** - in the apps you pick, hide the triggers, let taps go through, or snap / unsnap the button. Triggers can also hide in fullscreen apps and the button in landscape.
-- **Everywhere else** - launcher long-press shortcuts (left and right, for the Deck and each panel), extra home-screen icons, `omnideck://` links, and intents for Tasker or MacroDroid.
-- **Works with Bottom notifications** - if you own it, a gesture or wheel slot can open its notification shade.
+Settings > Triggers has a page each for the **Button**, **Edge swipe** and **Icons**.
+
+- **Edge-swipe strips** on either side, with a visual hint you can show or hide and a touch area you drag into place on screen - shared by both sides or set separately for each.
+- **Up to five edge pairs** - add more left / right pairs of strips, each with its own touch areas, gestures, Action wheel, hint and settings.
+- **Directional gestures** - a tap, and short and long swipes in five directions per strip (and eight around the floating button), each bound to any action. Set the angles visually, and how long to hold for a long swipe. Give each strip its own set, or let both share one with **Mirror**.
+- **A movable floating button** - snap it to an edge (half hidden, above the navigation bar), fling it, choose a different shape when snapped, and let it rotate with the screen or stay put.
+- **The Action wheel** - swipe from the floating button or an edge (or tap a strip), slide onto one of the actions around your finger and lift to run it. It opens at your finger or at a fixed spot, with its own opacity. Pick the actions, icons and names in its own editor; each edge strip can have its own wheel.
+- **Swipe-through launch** - keep your finger down after the Deck opens, slide onto an item and lift to open it. On or off for the button and for each edge pair.
+- **Automatic behaviour, per trigger** - for the button and for each edge pair: in the apps you pick, hide it or let taps go through (and snap / unsnap the button); hide it or let touches through in fullscreen apps; hide it in landscape.
+- **Home-screen icons for every Deck** - a left and a right icon per Deck, each opening its Deck or showing / hiding it.
+- **Everywhere else** - launcher long-press shortcuts (left and right, for the Deck and each panel), `omnideck://` links, and intents for Tasker or MacroDroid.
+- **Works with Bottom notifications** - if you own it, a gesture or wheel slot can open its notification shade, and its own gestures can run Omnideck actions, opening any Deck included.
 
 ---
 
@@ -211,6 +216,7 @@ The free version is genuinely useful all on its own: a full launcher panel, ever
 
 **Omnideck Pro** is a single one-time purchase - no subscriptions, ever. It unlocks the extra polish and customization:
 
+- Up to five Decks and five edge-swipe pairs
 - Bigger grids and extra pages
 - Deck appearance, position, and behaviour
 - Page transitions, animations and haptic feedback
@@ -219,7 +225,8 @@ The free version is genuinely useful all on its own: a full launcher panel, ever
 - Directional gestures and the Action wheel
 - Swipe-through launch
 - Floating-button styling, animations and keyboard avoidance
-- Per-app trigger rules and fullscreen / landscape behaviour
+- Separate touch areas per side, per-app trigger rules and fullscreen / landscape behaviour
+- Home-screen icons for each Deck
 - Backup and restore
 
 Buy it once and it is yours to keep.
