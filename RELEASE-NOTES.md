@@ -11,6 +11,7 @@ What changed in each version of [Omnideck](https://play.google.com/store/apps/de
 - Edge swipe with only one edge on: its gestures and Action wheel are now that edge's own - adding apps to the right wheel no longer puts them on the left one too.
 - The album cover on the floating button now follows track changes again, also when the button was hidden or the phone was just unlocked.
 - Making a page's grid bigger (Add action, the page manager or the default rows / columns) no longer rearranges its icons, folders or widgets - you just get the new empty row or column.
+- Several Pro features are now free, including Backup & restore, home-screen icons and Deck position.
 
 ## 3.3
 

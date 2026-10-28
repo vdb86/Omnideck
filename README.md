@@ -36,6 +36,7 @@ It is built to be fast, tidy, and completely yours.
 - Edge swipe with only one edge on: its gestures and Action wheel are now that edge's own - adding apps to the right wheel no longer puts them on the left one too.
 - The album cover on the floating button now follows track changes again, also when the button was hidden or the phone was just unlocked.
 - Making a page's grid bigger (Add action, the page manager or the default rows / columns) no longer rearranges its icons, folders or widgets - you just get the new empty row or column.
+- Several Pro features are now free, including Backup & restore, home-screen icons and Deck position.
 
 [All release notes](RELEASE-NOTES.md)
 <!-- whats-new:end -->
@@ -230,22 +231,20 @@ Omnideck respects your privacy from the ground up:
 
 ## 💎 Free, with an optional one-time upgrade
 
-The free version is genuinely useful all on its own: a full launcher panel, every action type (HTTP requests, Wake-on-LAN, saved texts and web search included), the Library, folders, custom icons, contact menus, themes, Material You, and both ways to open it.
+The free version is genuinely useful all on its own: a full launcher panel, every action type (HTTP requests, Wake-on-LAN, saved texts and web search included), the Library, folders, custom icons, contact menus, themes, Material You, both ways to open it, backup and restore, home-screen icons, and where the Deck opens.
 
 **Omnideck Pro** is a single one-time purchase - no subscriptions, ever. It unlocks the extra polish and customization:
 
 - Up to five Decks, five edge-swipe pairs and five floating buttons
 - Bigger grids and extra pages
-- Deck appearance (app names included), position, and behaviour
+- Deck appearance (app names included) and behaviour
 - Page transitions, animations and haptic feedback
 - Vertical and continuous scrolling
 - The App index and Contacts panels
 - Directional gestures and the Action wheel
 - Swipe-through launch
 - Floating-button styling, animations and keyboard avoidance
-- Separate touch areas per side, per-app trigger rules and fullscreen / landscape behaviour
-- Home-screen icons for each Deck
-- Backup and restore
+- Per-app trigger rules and fullscreen / landscape behaviour
 
 Buy it once and it is yours to keep.
 
