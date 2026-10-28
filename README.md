@@ -27,13 +27,15 @@ It is built to be fast, tidy, and completely yours.
 ---
 
 <!-- whats-new:start -->
-## 🆕 What's new in 3.3
+## 🆕 What's new in 3.4
 
-- Multiple Decks (Pro): up to five Decks, each with its own pages. Decks 2-5 use Deck 1's settings until you change one for that Deck. Any Open Deck gesture or wheel slot chooses which Deck it opens.
-- Edge swipe pairs (Pro): add up to four more left/right pairs of edge strips, each with its own touch areas, gestures, Action wheel and settings.
-- The Triggers tab is split into Button, Edge swipe and Icons, and Swipe-through and Automatic behaviour are now set separately for the button and for each edge pair. Edge strips can also hide in landscape and let touches through in fullscreen apps.
-- Launcher icons for every Deck (Pro): each Deck can have its own left and right home-screen icon, and any icon can show / hide its Deck instead of only opening it.
-- Lock position (Pro): a new switch in Deck position stops the Deck from being picked up and moved by accident, also when it is pinned.
+- More floating buttons (Pro): add up to four more buttons, each with its own look, position, gestures, Action wheel and settings. A new button starts with Button 1's look, next to it.
+- Show app names (Pro): names under the icons in the Deck, on one or two lines and in the size you choose, per Deck. Folders can now be named too (Edit on a folder in edit mode).
+- Add action never lets you pick more than fits on the page. When it is full, add a row or a column right there and keep adding (Pro).
+- Vibrate when a swipe runs (Pro): a new switch for edge swipes, per edge pair.
+- Edge swipe with only one edge on: its gestures and Action wheel are now that edge's own - adding apps to the right wheel no longer puts them on the left one too.
+- The album cover on the floating button now follows track changes again, also when the button was hidden or the phone was just unlocked.
+- Making a page's grid bigger (Add action, the page manager or the default rows / columns) no longer rearranges its icons, folders or widgets - you just get the new empty row or column.
 
 [All release notes](RELEASE-NOTES.md)
 <!-- whats-new:end -->
@@ -55,11 +57,12 @@ Please search the [open issues](../../issues) first to avoid duplicates.
 ## ✨ The Deck
 
 - **Launch anything** - apps, app shortcuts, activities, inner links (an app's own screens and deep links), custom intents, Android settings screens, files, contacts, websites, saved texts, HTTP requests and web searches, all in one panel.
-- **Add action, eleven tabs** - Apps, System, Activities, Intents, Inner links, Shortcuts, Files, Websites, Contacts, Text and HTTP. A **Test** button tries an activity or intent before you add it, and screens other apps can't open are marked.
+- **Add action, eleven tabs** - Apps, System, Activities, Intents, Inner links, Shortcuts, Files, Websites, Contacts, Text and HTTP. A **Test** button tries an activity or intent before you add it, and screens other apps can't open are marked. Pick several at once - when the page is full, add a row or a column right there and keep going.
 - **System actions at a glance** - Back, Home, Recents, Previous app, Notifications, Quick settings, Split screen, Lock screen, Screenshot, Power menu, Assistant, Web search, Torch, volume and mute, media controls (play / pause, previous, next, stop), rotation and Auto-rotate, Screen timeout, Adaptive brightness, and more.
 - **Live widgets** - drop your favourite widgets straight into the Deck, then move and resize them on the grid, with zoom control for widgets that don't fit.
 - **Up to five Decks** - each with its own pages. Decks 2-5 follow Deck 1's settings until you change one for that Deck (a small reset icon brings it back), and every gesture, wheel slot, home-screen icon and link chooses which Deck it opens.
-- **Stay organised** - folders, multiple pages, a page manager, and a grid size you choose (up to 20 x 20, per page if you like).
+- **Stay organised** - named folders, multiple pages, a page manager, and a grid size you choose (up to 20 x 20, per page if you like). Making a grid bigger never moves what is already on it.
+- **App names** - show names under the icons, on one or two lines and in the size you choose, per Deck.
 - **Scroll your way** - flip pages left/right or up/down, or switch to one continuous strip that can loop endlessly.
 - **Edit in place** - in edit mode, tap an item to edit it, hold and drag to move it; icons and widgets make room for each other as you drag.
 - **Pin it** - keep the Deck on screen and drag it wherever you want it; a "Show / hide Deck" action closes it again, and **Lock position** stops it from being moved by accident.
@@ -129,7 +132,8 @@ Settings > Triggers has a page each for the **Button**, **Edge swipe** and **Ico
 
 - **Edge-swipe strips** on either side, with a visual hint you can show or hide and a touch area you drag into place on screen - shared by both sides or set separately for each.
 - **Up to five edge pairs** - add more left / right pairs of strips, each with its own touch areas, gestures, Action wheel, hint and settings.
-- **Directional gestures** - a tap, and short and long swipes in five directions per strip (and eight around the floating button), each bound to any action. Set the angles visually, and how long to hold for a long swipe. Give each strip its own set, or let both share one with **Mirror**.
+- **Directional gestures** - a tap, and short and long swipes in five directions per strip (and eight around the floating button), each bound to any action. Set the angles visually, and how long to hold for a long swipe. Give each strip its own set, or let both share one with **Mirror** (with only one edge on, it always has its own). A short vibration when a swipe runs, if you like.
+- **Up to five floating buttons** - each with its own look, position, gestures, Action wheel and rules.
 - **A movable floating button** - snap it to an edge (half hidden, above the navigation bar), fling it, choose a different shape when snapped, and let it rotate with the screen or stay put.
 - **The Action wheel** - swipe from the floating button or an edge (or tap a strip), slide onto one of the actions around your finger and lift to run it. It opens at your finger or at a fixed spot, with its own opacity. Pick the actions, icons and names in its own editor; each edge strip can have its own wheel.
 - **Swipe-through launch** - keep your finger down after the Deck opens, slide onto an item and lift to open it. On or off for the button and for each edge pair.
@@ -144,7 +148,7 @@ Settings > Triggers has a page each for the **Button**, **Edge swipe** and **Ico
 
 - **Backup & restore** - your whole setup in one file you control; a file from another app or a newer Omnideck is refused before anything changes.
 - **What's new** and an **update checker** inside the app.
-- **Debug page** - Settings > About & contact > Debug shows the Pro purchase checks and memory details in one copyable report, for when you need support.
+- **Debug page** - Settings > About & contact > Debug shows the Pro purchase checks, memory details and a media log in one copyable report, for when you need support.
 - **Second-finger protection** - a second finger touching the strip or the button never sets it off.
 
 ---
@@ -230,9 +234,9 @@ The free version is genuinely useful all on its own: a full launcher panel, ever
 
 **Omnideck Pro** is a single one-time purchase - no subscriptions, ever. It unlocks the extra polish and customization:
 
-- Up to five Decks and five edge-swipe pairs
+- Up to five Decks, five edge-swipe pairs and five floating buttons
 - Bigger grids and extra pages
-- Deck appearance, position, and behaviour
+- Deck appearance (app names included), position, and behaviour
 - Page transitions, animations and haptic feedback
 - Vertical and continuous scrolling
 - The App index and Contacts panels

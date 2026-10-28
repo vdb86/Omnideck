@@ -2,6 +2,16 @@
 
 What changed in each version of [Omnideck](https://play.google.com/store/apps/details?id=com.omnideck.app), newest first. The same text as the app's What's new page.
 
+## 3.4
+
+- More floating buttons (Pro): add up to four more buttons, each with its own look, position, gestures, Action wheel and settings. A new button starts with Button 1's look, next to it.
+- Show app names (Pro): names under the icons in the Deck, on one or two lines and in the size you choose, per Deck. Folders can now be named too (Edit on a folder in edit mode).
+- Add action never lets you pick more than fits on the page. When it is full, add a row or a column right there and keep adding (Pro).
+- Vibrate when a swipe runs (Pro): a new switch for edge swipes, per edge pair.
+- Edge swipe with only one edge on: its gestures and Action wheel are now that edge's own - adding apps to the right wheel no longer puts them on the left one too.
+- The album cover on the floating button now follows track changes again, also when the button was hidden or the phone was just unlocked.
+- Making a page's grid bigger (Add action, the page manager or the default rows / columns) no longer rearranges its icons, folders or widgets - you just get the new empty row or column.
+
 ## 3.3
 
 - Multiple Decks (Pro): up to five Decks, each with its own pages. Decks 2-5 use Deck 1's settings until you change one for that Deck. Any Open Deck gesture or wheel slot chooses which Deck it opens.
