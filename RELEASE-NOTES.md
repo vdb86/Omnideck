@@ -12,6 +12,7 @@ What changed in each version of [Omnideck](https://play.google.com/store/apps/de
 - The album cover on the floating button now follows track changes again, also when the button was hidden or the phone was just unlocked.
 - Making a page's grid bigger (Add action, the page manager or the default rows / columns) no longer rearranges its icons, folders or widgets - you just get the new empty row or column.
 - Several Pro features are now free, including Backup & restore, home-screen icons and Deck position.
+- Lock position for each floating button: holding it no longer picks it up, so a swipe or the Action wheel can't move it by accident. Or keep it movable and choose how long you hold before it lets you drag it.
 
 ## 3.3
 
