@@ -20,24 +20,20 @@
 
 Omnideck is a floating launcher that lives quietly on the edge of your screen. Swipe in from the side, or tap a floating button, and the **Deck** appears right where you are - no jumping back to the home screen, no digging through app drawers. Tap what you need, and it tucks itself away again.
 
-Beside the Deck there are **Panels**: an A-Z app index and a contacts index, each with its own trigger.
+Beside the Deck there are **Panels**: an A-Z app index, a contacts index and the full-screen **Widgets panel**, which also opens over the lock screen.
 
 It is built to be fast, tidy, and completely yours.
 
 ---
 
 <!-- whats-new:start -->
-## 🆕 What's new in 3.4
+## 🆕 What's new in 3.5
 
-- More floating buttons (Pro): add up to four more buttons, each with its own look, position, gestures, Action wheel and settings. A new button starts with Button 1's look, next to it.
-- Show app names (Pro): names under the icons in the Deck, on one or two lines and in the size you choose, per Deck. Folders can now be named too (Edit on a folder in edit mode).
-- Add action never lets you pick more than fits on the page. When it is full, add a row or a column right there and keep adding (Pro).
-- Vibrate when a swipe runs (Pro): a new switch for edge swipes, per edge pair.
-- Edge swipe with only one edge on: its gestures and Action wheel are now that edge's own - adding apps to the right wheel no longer puts them on the left one too.
-- The album cover on the floating button now follows track changes again, also when the button was hidden or the phone was just unlocked.
-- Making a page's grid bigger (Add action, the page manager or the default rows / columns) no longer rearranges its icons, folders or widgets - you just get the new empty row or column.
-- Several Pro features are now free, including Backup & restore, home-screen icons and Deck position.
-- Lock position for each floating button: holding it no longer picks it up, so a swipe or the Action wheel can't move it by accident. Or keep it movable and choose how long you hold before it lets you drag it.
+- Floating buttons no longer creep up or sideways after turning the phone: turning it back always returns a button exactly to where you put it.
+- Let taps through (Pro): a tap on a floating button or an edge strip can go to the app below while swipes keep working - set it as the Tap action, or only in the apps you pick. Needs the accessibility service.
+- Per-app behaviour for the button and Edge swipe (Pro): pick apps separately for each behaviour and see every app's behaviour on one page. Edge swipe can now also let touches through in the apps you pick.
+- Floating buttons on the lock screen (Pro): show a button everywhere, only on the lock screen or only when unlocked, and give it its own look and gestures there. Opening the Deck or an app asks you to unlock first. Needs the accessibility service.
+- Widgets panel (Pro): full-screen pages of widgets, over the lock screen or any app - open it with a button or edge gesture, an Omnideck action, Bottom notifications or an automation app, or every time the screen turns on. Swipe between pages; a widget that opens an app asks you to unlock first.
 
 [All release notes](RELEASE-NOTES.md)
 <!-- whats-new:end -->
@@ -110,10 +106,11 @@ Keep texts you type often and paste them into the field you're typing in, from t
 
 ## 🗂️ Panels
 
-Two extra surfaces, each with its own trigger, gesture binding and launcher shortcut:
+Three extra surfaces, each opened by its own action from a gesture, the Action wheel or the Deck:
 
 - **App index** - an A-Z rail of every installed app. Slide down the rail and tap the app; long-press for App info, Add to Deck or Uninstall. Hide the apps you never want to see there.
 - **Contacts** - your contacts on the same rail, opening on your favourites. Tap someone to get their numbers, emails and address, each with its own call, message, copy or map action - plus the actions WhatsApp, Viber, Telegram and others add themselves. Sort by given or family name, pick a default number, and choose which app actions appear. A whole contact can sit on the Deck for one-tap access.
+- **Widgets panel** - full-screen pages of widgets, over the lock screen or any app. Lay out each page on its own grid, swipe between pages (with the Deck's page transitions, wrap-around and page dots), and choose a see-through or coloured background and an open / close animation. Open it from a button or edge gesture, an Omnideck action, Bottom notifications, an automation app, or every time the screen turns on. Widget buttons work on the lock screen; a widget that opens an app asks you to unlock first. It closes with Back, a swipe, a tap on an empty spot, after a time you set or when you unlock.
 
 ---
 
@@ -136,10 +133,12 @@ Settings > Triggers has a page each for the **Button**, **Edge swipe** and **Ico
 - **Up to five edge pairs** - add more left / right pairs of strips, each with its own touch areas, gestures, Action wheel, hint and settings.
 - **Directional gestures** - a tap, and short and long swipes in five directions per strip (and eight around the floating button), each bound to any action. Set the angles visually, and how long to hold for a long swipe. Give each strip its own set, or let both share one with **Mirror** (with only one edge on, it always has its own). A short vibration when a swipe runs, if you like.
 - **Up to five floating buttons** - each with its own look, position, gestures, Action wheel and rules.
-- **A movable floating button** - snap it to an edge (half hidden, above the navigation bar), fling it, choose a different shape when snapped, and let it rotate with the screen or stay put.
+- **A movable floating button** - snap it to an edge (half hidden, above the navigation bar), fling it, choose a different shape when snapped, and let it rotate with the screen or stay put - turning the phone back always returns it exactly to its spot. Lock its position, or choose how long you hold before it can be dragged.
+- **Buttons on the lock screen** - show each button everywhere, only on the lock screen or only when unlocked, and give it its own look, gestures and position there. Media, volume, torch and similar actions run at once; opening the Deck or an app asks you to unlock first.
+- **Let taps through** - a tap on a floating button or an edge strip can go to the app below while its swipes keep working: set it as the Tap action, or only in the apps you pick.
 - **The Action wheel** - swipe from the floating button or an edge (or tap a strip), slide onto one of the actions around your finger and lift to run it. It opens at your finger or at a fixed spot, with its own opacity. Pick the actions, icons and names in its own editor; each edge strip can have its own wheel.
 - **Swipe-through launch** - keep your finger down after the Deck opens, slide onto an item and lift to open it. On or off for the button and for each edge pair.
-- **Automatic behaviour, per trigger** - for the button and for each edge pair: in the apps you pick, hide it or let taps go through (and snap / unsnap the button); hide it or let touches through in fullscreen apps; hide it in landscape.
+- **Automatic behaviour, per trigger** - for the button and for each edge pair: pick the apps separately for each behaviour (hide, let taps or touches through, and snap / unsnap the button) and see every app's behaviour on one page; hide it or let touches through in fullscreen apps; hide it in landscape.
 - **Home-screen icons for every Deck** - a left and a right icon per Deck, each opening its Deck or showing / hiding it.
 - **Everywhere else** - launcher long-press shortcuts (left and right, for the Deck and each panel), `omnideck://` links, and intents for Tasker or MacroDroid.
 - **Works with Bottom notifications** - if you own it, a gesture or wheel slot can open its notification shade, and its own gestures can run Omnideck actions, opening any Deck included.
@@ -221,10 +220,12 @@ Omnideck respects your privacy from the ground up:
 - **Modify system settings (optional)** - only for the screen-rotation, Auto-rotate, Screen timeout and Adaptive brightness actions.
 - **Internet** - only for the HTTP requests and Wake-on-LAN packets you set up yourself, for fetching a website's icon when you ask for it, and for web search: the search engine's suggestions while you type (each letter goes to the engine you chose - turn suggestions off in Settings and nothing is sent) and each engine's icon, fetched once. Omnideck sends nothing about you anywhere.
 - **Usage access (optional)** - only to see which app is in front, so triggers can behave differently in the apps you pick (hide, click through, snap or unsnap). Omnideck never reads your usage history.
-- **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for three things, and only when you choose to use them:
+- **Accessibility service (optional, OFF by default)** - Omnideck uses Android's Accessibility Service for five things, and only when you choose to use them:
   1. **System navigation shortcuts from the panel** - Back, Home, Recents, Notifications, Quick Settings, Lock screen, Screenshot, and Split screen. Android only exposes these actions through the Accessibility Service (`performGlobalAction`), so the panel relies on it to trigger them.
   2. **Keyboard avoidance** - detecting when the on-screen keyboard opens so the panel can slide out of its way (a Pro feature).
   3. **Pasting saved texts** - an action you set up pastes a text you saved in Omnideck into the text field you are typing in. Omnideck only asks which field has focus and pastes into it; it never reads the field or anything else on screen.
+  4. **Let taps through** - when you turn it on, your tap on the floating button or an edge strip is passed on to the app below: Omnideck performs that one tap at the same spot (a Pro feature).
+  5. **Buttons on the lock screen** - only an accessibility window can show over the lock screen, so a floating button you choose to show there uses it (a Pro feature).
 
   Omnideck does **NOT** read, record, log, collect, or transmit the contents of your screen or anything you type. No accessibility data is stored or leaves your device. The service is optional and disabled by default; you can turn it off at any time in **Android Settings → Accessibility** or from Omnideck's Permissions screen, and every other feature keeps working without it.
 
@@ -241,10 +242,10 @@ The free version is genuinely useful all on its own: a full launcher panel, ever
 - Deck appearance (app names included) and behaviour
 - Page transitions, animations and haptic feedback
 - Vertical and continuous scrolling
-- The App index and Contacts panels
+- The App index, Contacts and Widgets panels
 - Directional gestures and the Action wheel
-- Swipe-through launch
-- Floating-button styling, animations and keyboard avoidance
+- Swipe-through launch and Let taps through
+- Floating-button styling, animations, keyboard avoidance and buttons on the lock screen
 - Per-app trigger rules and fullscreen / landscape behaviour
 
 Buy it once and it is yours to keep.

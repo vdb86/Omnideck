@@ -2,6 +2,14 @@
 
 What changed in each version of [Omnideck](https://play.google.com/store/apps/details?id=com.omnideck.app), newest first. The same text as the app's What's new page.
 
+## 3.5
+
+- Floating buttons no longer creep up or sideways after turning the phone: turning it back always returns a button exactly to where you put it.
+- Let taps through (Pro): a tap on a floating button or an edge strip can go to the app below while swipes keep working - set it as the Tap action, or only in the apps you pick. Needs the accessibility service.
+- Per-app behaviour for the button and Edge swipe (Pro): pick apps separately for each behaviour and see every app's behaviour on one page. Edge swipe can now also let touches through in the apps you pick.
+- Floating buttons on the lock screen (Pro): show a button everywhere, only on the lock screen or only when unlocked, and give it its own look and gestures there. Opening the Deck or an app asks you to unlock first. Needs the accessibility service.
+- Widgets panel (Pro): full-screen pages of widgets, over the lock screen or any app - open it with a button or edge gesture, an Omnideck action, Bottom notifications or an automation app, or every time the screen turns on. Swipe between pages; a widget that opens an app asks you to unlock first.
+
 ## 3.4
 
 - More floating buttons (Pro): add up to four more buttons, each with its own look, position, gestures, Action wheel and settings. A new button starts with Button 1's look, next to it.
